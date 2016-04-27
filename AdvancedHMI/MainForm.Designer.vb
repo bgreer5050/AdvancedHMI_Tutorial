@@ -26,10 +26,9 @@ Partial Class MainForm
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.QuickStartLabel = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Meter1 = New AdvancedHMIControls.Meter()
         Me.EthernetIPforCLXCom1 = New AdvancedHMIDrivers.EthernetIPforCLXCom(Me.components)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -56,17 +55,6 @@ Partial Class MainForm
         Me.QuickStartLabel.TabIndex = 38
         Me.QuickStartLabel.Text = resources.GetString("QuickStartLabel.Text")
         Me.QuickStartLabel.Visible = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(450, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(322, 47)
-        Me.PictureBox1.TabIndex = 42
-        Me.PictureBox1.TabStop = False
         '
         'Meter1
         '
@@ -96,13 +84,23 @@ Partial Class MainForm
         Me.EthernetIPforCLXCom1.Port = 44818
         Me.EthernetIPforCLXCom1.ProcessorSlot = 0
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(291, 102)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(237, 31)
+        Me.Label2.TabIndex = 44
+        Me.Label2.Text = "STRESS METER"
+        '
         'MainForm
         '
         Me.AutoScroll = True
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(784, 562)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Meter1)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.QuickStartLabel)
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -110,15 +108,14 @@ Partial Class MainForm
         Me.KeyPreview = True
         Me.Name = "MainForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
-        Me.Text = "AdvancedHMI v3.99d"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Text = "Greer Automation"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents QuickStartLabel As System.Windows.Forms.Label
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Meter1 As AdvancedHMIControls.Meter
     Friend WithEvents EthernetIPforCLXCom1 As AdvancedHMIDrivers.EthernetIPforCLXCom
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 End Class
