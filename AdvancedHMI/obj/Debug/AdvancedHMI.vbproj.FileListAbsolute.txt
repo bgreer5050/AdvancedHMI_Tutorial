@@ -1,8 +1,4 @@
-C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\bin\Debug\AdvancedHMI.exe.config
 C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\bin\Debug\Alarms.txt
-C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\bin\Debug\AdvancedHMI.exe
-C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\bin\Debug\AdvancedHMI.pdb
-C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\bin\Debug\AdvancedHMI.xml
 C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\bin\Debug\AdvancedHMIControls.dll
 C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\bin\Debug\AdvancedHMIDrivers.dll
 C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\bin\Debug\MfgControl.AdvancedHMI.Controls.dll
@@ -21,6 +17,10 @@ C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\obj\Debug
 C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\obj\Debug\MfgControl.AdvancedHMI.Resources.resources
 C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\obj\Debug\MfgControl.AdvancedHMI.Page2.resources
 C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\obj\Debug\AdvancedHMI.vbproj.GenerateResource.Cache
-C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\obj\Debug\AdvancedHMI.exe
-C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\obj\Debug\AdvancedHMI.xml
-C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\obj\Debug\AdvancedHMI.pdb
+C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\bin\Debug\Stress O Meter.exe.config
+C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\bin\Debug\Stress O Meter.exe
+C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\bin\Debug\Stress O Meter.pdb
+C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\bin\Debug\Stress O Meter.xml
+C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\obj\Debug\Stress O Meter.exe
+C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\obj\Debug\Stress O Meter.xml
+C:\Users\bgreer.METAL-MATIC\Downloads\AdvancedHMIBetaV399d\AdvancedHMI\obj\Debug\Stress O Meter.pdb
